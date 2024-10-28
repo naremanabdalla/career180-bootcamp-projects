@@ -1,0 +1,61 @@
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.Main-td img {
+  margin-right: 10%;
+  border-radius: 50%;
+}
+.Main-td h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+thead td > div {
+  display: flex;
+}
+.Main-td p {
+ 
+  margin-top: 0px;
+}
+.Main-td {
+  background-color: rgb(143, 136, 157);
+}
+.left-td {
+  background-color: rgb(233, 224, 231);
+}
+.right-td {
+  background-color: rgb(239, 243, 246);
+} */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+thead > tr {
+  background-color: rgb(143, 136, 157);
+}
+thead > tr > td > div {
+  display: flex;
+}
+img {
+  margin-right: 20%;
+  border-radius: 50%;
+}
+thead > tr > td > div p {
+  margin-top: 0px;
+}
+.td-content {
+  background-color: rgb(233, 224, 231);
+}
+.td-education {
+  background-color: rgb(233, 224, 231);
+}
+.td-skills {
+  background-color: rgb(233, 224, 231);
+}
+.td-summary {
+  background-color: rgb(239, 243, 246);
+}
+.td-work-experience {
+  background-color: rgb(239, 243, 246);
+}

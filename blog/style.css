@@ -1,0 +1,169 @@
+.width-85 {
+  width: 85%;
+  margin: auto;
+}
+
+.Logo {
+  font-family: playfair;
+  font-size: 2.3rem;
+}
+
+.sign-up:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+.nav-scroller {
+  position: relative;
+  height: 2.75rem;
+}
+
+.nav-scroller .nav {
+  -ms-flex-wrap: nowrap;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.sign-up-btn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav p:hover {
+  text-decoration: underline;
+}
+
+.blog {
+  background-color: #343a40;
+  font-family: playfair;
+}
+
+.blog div {
+  width: 60%;
+}
+
+.title-of-blog {
+  font-family: auto;
+}
+
+.paragrapg-of-blog {
+  font-family: "segoe";
+}
+
+.continue-reading {
+  font-family: "segoe";
+}
+
+.blog-card {
+  height: 13rem;
+}
+
+.blog-btn button {
+  border-radius: 10rem;
+}
+
+/* font */
+.segoe-bold {
+  font-family: segoe;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.sego-italic {
+  font-family: "segoe";
+  font-weight: normal;
+  font-style: italic;
+}
+
+.playfair {
+  font-family: "playfair";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.playfair-bold {
+  font-family: "playfair";
+  font-weight: bold;
+  font-style: normal;
+}
+
+.playfair-italic {
+  font-family: "playfair";
+  font-weight: normal;
+  font-style: italic;
+}
+
+.playfair-bold-italic {
+  font-family: "playfair";
+  font-weight: normal;
+  font-style: italic;
+}
+
+.display-block {
+  display: block;
+}
+
+.font-1-6-rem {
+  font-size: 1.6rem;
+}
+
+.bolg-primary-color {
+  color: #999;
+}
+
+/* @font-face */
+@font-face {
+  font-family: "playfair";
+  src: url(./fonts/static/PlayfairDisplay-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "playfair";
+  src: url(./fonts/static/PlayfairDisplay-Italic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "playfair";
+  src: url(./fonts/static/PlayfairDisplay-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "playfair";
+  src: url(./fonts/static/PlayfairDisplay-BoldItalic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "segoe";
+  src: url(./fonts/Segoe\ UI.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "segoe";
+  src: url(./fonts/Segoe\ UI\ Bold.ttf);
+  font-weight: Bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "segoe";
+  src: url(./fonts/Segoe\ UI\ Bold\ Italic.ttf);
+  font-weight: Bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "segoe";
+  src: url(./fonts/Segoe\ UI\ Italic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}

@@ -1,0 +1,119 @@
+body {
+  color: #212529;
+  font-weight: 500;
+}
+
+.fa-0 {
+  border-radius: 1rem;
+  width: 1.6rem;
+  height: 1.4rem;
+}
+.cart {
+  margin-inline: 0.4rem;
+}
+.add-to-cart:hover {
+  background-color: #212529;
+  color: white;
+}
+.header {
+  width: 85%;
+  margin: 7% auto;
+}
+
+.pargraph p:first-of-type {
+  font-size: 0.8rem;
+}
+
+.pargraph h1 {
+  font-size: 3rem;
+}
+.price {
+  font-size: 1em;
+}
+.product-details {
+  font-size: 1.4rem;
+}
+.number {
+  border-radius: 0.5rem;
+}
+.add-to-cart {
+  border-radius: 0.5rem;
+}
+.Related-products {
+  background-color: #f8f9fa;
+}
+
+.products-title {
+  font-size: 2.2rem;
+  padding-left: 2rem;
+}
+
+.card {
+  height: 21rem;
+  margin: 17px;
+}
+.sale::before {
+  content: "sale";
+  top: 6px;
+  right: 6px;
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 0px 4px;
+  border: 0px solid;
+  border-radius: 0.5rem;
+}
+.card img {
+  width: 100%;
+}
+.card button {
+  bottom: 2rem;
+  border-radius: 0.6rem;
+  background-color: white;
+}
+.card button:hover {
+  color: white;
+  background: #212529;
+}
+
+.fa-star {
+  color: #ffc107;
+}
+
+/* general */
+.dark-blue-color {
+  color: #212529;
+}
+.dark-blue-background {
+  background-color: #212529;
+}
+.color-white {
+  color: white;
+}
+.font-sf-ui {
+  font-family: sf-ui;
+}
+.font-sf-ui-medium {
+  font-family: sf-ui;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width: 768) {
+  .img-header {
+    height: 23rem;
+    width: 46%;
+  }
+}
+@font-face {
+  font-family: "sf-ui";
+  src: url(./fonts/sf-ui-display-bold-58646a511e3d9.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sf-ui";
+  src: url(./fonts/sf-ui-display-thin-58646e9b26e8b.otf);
+  font-weight: normal;
+  font-style: normal;
+}
