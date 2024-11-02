@@ -1,0 +1,289 @@
+body {
+    color: $default-color;
+    position: relative;
+}
+
+.width-85 {
+    width: 85%;
+    margin: auto;
+}
+
+.navbar-section {
+    @extend.width-85;
+}
+
+.nav-link {
+    color: $default-color;
+}
+
+nav {
+    background-color: $background-color;
+}
+
+nav a:hover {
+    background-color: $primary-color;
+}
+
+.First-slide {
+    @include cursor-background("https://bootstrapmade.com/content/demo/Shuffle/assets/img/hero-carousel/hero-carousel-1.jpg"
+    );
+}
+
+.Second-slide {
+    @include cursor-background("https://bootstrapmade.com/content/demo/Shuffle/assets/img/hero-carousel/hero-carousel-2.jpg"
+    );
+}
+
+.Third-slide {
+    @include cursor-background("https://bootstrapmade.com/content/demo/Shuffle/assets/img/hero-carousel/hero-carousel-3.jpg"
+    );
+}
+
+// .content {
+//     width: 55%;
+//     margin: auto;
+// }
+
+.content {
+    position: absolute;
+    top: 30vh;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    position: relative;
+
+}
+
+.carousel-item.active {
+    display: grid;
+    // align-items: center;
+    // text-align: center;
+}
+
+.header-btn {
+    @include primary-btn($primary-color, none);
+
+    &:hover {
+        background-color: rgb(27 188 163 / 83%);
+        transition: background-color 0.5s ease;
+    }
+}
+
+.head::before {
+    @include before-and-after;
+    margin-right: 0.5rem;
+}
+
+.head::after {
+    @include before-and-after;
+    margin-left: 0.5rem;
+}
+
+.bi-check-circle::before {
+    color: $primary-color;
+    font-size: 1.2rem;
+}
+
+.about-section-btn {
+    @include primary-btn($primary-color, none);
+    border-radius: 0.5rem;
+}
+
+.data {
+    background-color: $some-section-color;
+    padding-block: 4rem;
+}
+
+.data .data-card {
+    color: $default-color;
+}
+
+.data i {
+    color: $primary-color;
+}
+
+.data i,
+.data .num {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.services-cards .icon {
+    font-size: 2.2rem;
+    color: $primary-color;
+}
+
+.services-card {
+    box-shadow: 0px 0px 21px -14px;
+    height: 17rem;
+}
+
+.services-card::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: $primary-color;
+    z-index: -1;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.25s ease-out;
+}
+
+.services-card:hover::after,
+.services-card:hover,
+.services-card:hover .icon {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    color: white;
+}
+
+.call-to-action {
+    background-image: url(https://bootstrapmade.com/content/demo/Shuffle/assets/img/cta-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.call-to-action button {
+    @include primary-btn(transparent, 2px solid $primary-color);
+    border-radius: 2rem;
+}
+
+.more-services::before {
+    @include before-and-after;
+    margin-right: 0.5rem;
+}
+
+.more-services::after {
+    @include before-and-after;
+    margin-left: 0.5rem;
+}
+
+.more-services-card {
+    box-shadow: 0px 0px 21px -15px;
+}
+
+.more-services-card:hover img {
+    transform: scale(0.9);
+    transition: transform 0.7s ease;
+}
+
+.portfolio-nav button:focus,
+.portfolio-nav button:hover {
+    color: $primary-color;
+}
+
+.Portfolio-img:hover img {
+    transform: scale(1.1);
+    filter: brightness(44%);
+}
+
+.Portfolio-img:hover .portfolio-card-content {
+    opacity: 1;
+}
+
+////////////////////////////////////////////////////
+
+
+.team-img:hover img {
+    filter: brightness(44%);
+}
+
+.team-img:hover .team-card-content {
+    opacity: 1;
+}
+
+////////////////////////////////////////////////////
+.Questions-section {
+    background-color: $some-section-color;
+}
+
+.accordion-button {
+    color: $heading-color;
+}
+
+.accordion-button:hover {
+    color: $primary-color;
+}
+
+.accordion-num {
+    color: $primary-color;
+}
+
+.accordion-button:not(.collapsed) {
+    color: $primary-color;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.contact-card {
+    background-color: $some-section-color;
+}
+
+.contact-card i {
+    font-size: 2rem;
+    color: $primary-color;
+}
+
+.contact-card p {
+    font-size: 0.9rem;
+}
+
+.contact-card input {
+    height: 2.4rem;
+    font-size: 0.9rem;
+}
+
+.contact-card button {
+
+    padding-inline: 0;
+    border: none;
+    border-radius: 0.3rem;
+    height: 2.6rem;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+::placeholder {
+    color: rgb(164, 164, 164);
+    padding: 10px;
+}
+
+///////////////////////////////////////////////////////
+footer {
+    background-color: #0e1a18;
+    color: $background-color;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+footer i {
+    border: 1px solid $background-color;
+    border-radius: 50%;
+    padding: 0.4rem 0.6rem;
+    color: color-mix(in srgb, var($background-color), transparent 20%);
+}
+
+footer a {
+    display: block;
+    color: rgb(184 184 184);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: $primary-color;
+}
+
+.Copyright {
+    background-color: rgb(69, 69, 69);
+}
+
+.BootstrapMade {
+    color: $primary-color;
+}

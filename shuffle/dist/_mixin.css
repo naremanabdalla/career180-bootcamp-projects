@@ -1,0 +1,77 @@
+.portfolio-card-content {
+  opacity: 0;
+  color: white;
+  height: 100%;
+}
+.portfolio-card-content h5 {
+  background-color: #1bbca3;
+  top: 24px;
+  left: 30px;
+  font-size: 1rem;
+  padding-inline: 0.6rem;
+  position: absolute;
+}
+.portfolio-card-content .bi-zoom-in {
+  top: 43%;
+  left: 40%;
+  position: absolute;
+  font-size: 1.6rem;
+}
+.portfolio-card-content .bi-link-45deg {
+  top: 42%;
+  left: 55%;
+  position: absolute;
+  font-size: 1.9rem;
+}
+.portfolio-card-content p {
+  font-size: 90%;
+  position: absolute;
+  bottom: 18px;
+  width: 93%;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffffcc;
+}
+
+.team-card-content {
+  opacity: 0;
+  color: white;
+}
+.team-card-content h5 {
+  font-size: 100%;
+  position: absolute;
+  top: 34%;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+.team-card-content p {
+  font-size: 90%;
+  position: absolute;
+  top: 41%;
+  width: 100%;
+}
+.team-card-content .bi-twitter {
+  font-size: 90%;
+  position: absolute;
+  top: 50%;
+  right: 60%;
+}
+.team-card-content .bi-facebook {
+  font-size: 90%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+.team-card-content .bi-instagram {
+  font-size: 90%;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+}
+.team-card-content .bi-linkedin {
+  font-size: 90%;
+  position: absolute;
+  top: 50%;
+  right: 30%;
+}

@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="boot/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <!--  -->
+    <nav class="navbar navbar-expand-lg position-fixed z-1 w-100 pt-3 pb-3">
+      <div class="container-fluid navbar-section">
+        <h1 class="fs-2 m-0 fw-bold" href="#">Shuffle</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link ms-1 ps-3 pe-3" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-1 ps-3 pe-3" aria-current="page" href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-1 ps-3 pe-3" aria-current="page" href="#"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-1 ps-3 pe-3" aria-current="page" href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-1 ps-3 pe-3" aria-current="page" href="#"
+                >Team</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle ms-1 ps-3 pe-3"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href>Dropdown1</a></li>
+                <li><a class="dropdown-item" href>Dropdown2</a></li>
+                <li><a class="dropdown-item" href>Dropdown3</a></li>
+                <li><a class="dropdown-item" href>Dropdown4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-1 ps-3 pe-3" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--  -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active First-slide">
+          <div class="d-block d-md-block content">
+            <h2 class="text-white text-start">Welcome to Shuffle</h2>
+            <p class="carousel-pragraph text-start mb-5 mt-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button class="header-btn">Get Started</button>
+          </div>
+        </div>
+        <div class="carousel-item Second-slide">
+          <div class="d-block d-md-block content">
+            <h2 class="text-white text-start">At vero eos et accusamus</h2>
+            <p class="carousel-pragraph text-start mb-5 mt-3">
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam et aut officiis debitis aut.
+            </p>
+            <button class="header-btn">Get Started</button>
+          </div>
+        </div>
+        <div class="carousel-item Third-slide">
+          <div class="d-block d-md-block content">
+            <h2 class="text-white text-start">Temporibus autem quibusdam</h2>
+            <p class="carousel-pragraph text-start mb-5 mt-3">
+              Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+              voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+              magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste
+              natus error sit voluptatem accusantium.
+            </p>
+            <button class="header-btn">Get Started</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="about-section pt-5 pb-5 width-85">
+      <h1 class="text-center about head">About</h1>
+      <p class="text-center">
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit
+      </p>
+      <div
+        class="row justify-content-between align-items-center flex-wrap-reverse"
+      >
+        <div class="col-lg-6 col-12">
+          <h1 class="about-content-title fst-normal fw-bold">
+            Voluptatem dignissimos provident quasi corporis
+          </h1>
+          <p class="fst-italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <p class="bi bi-check-circle">
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p class="bi bi-check-circle">
+            Duis aute irure dolor in reprehenderit in voluptate velit.
+          </p>
+          <p class="bi bi-check-circle">
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute
+            irure dolor in reprehenderit in voluptate trideta storacalaperda
+            mastiro dolore eu fugiat nulla pariatur.
+          </p>
+          <button class="header-btn about-section-btn">
+            Read More <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+        <img
+          class="col-lg-6 col-12"
+          src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/about.jpg"
+          alt
+        />
+      </div>
+    </section>
+    <section class="data">
+      <div class="width-85 row ps-5 ps-md-0">
+        <div class="data-card d-flex col-lg-3 col-md-6 col-10">
+          <div class>
+            <i class="bi bi-emoji-smile fw-bold me-3"></i>
+          </div>
+          <div>
+            <p class="num fw-bold">232</p>
+            <p><span class="fw-bold">Happy Clients</span> consequuntur quae</p>
+          </div>
+        </div>
+        <div class="data-card d-flex col-lg-3 col-md-6 col-10">
+          <div>
+            <i class="bi bi-journal-richtext fw-bold me-3"></i>
+          </div>
+          <div>
+            <p class="num fw-bold">521</p>
+            <p>
+              <span class="fw-bold">Projects</span> adipisci atque cum quia aut
+            </p>
+          </div>
+        </div>
+        <div class="data-card d-flex col-lg-3 col-md-6 col-10">
+          <div>
+            <i class="bi bi-headset fw-bold me-3"></i>
+          </div>
+          <div>
+            <p class="num fw-bold">1453</p>
+            <p>
+              <span class="fw-bold">Hours Of Support</span> aut commodi quaerat
+            </p>
+          </div>
+        </div>
+        <div class="data-card d-flex col-lg-3 col-md-6 col-10">
+          <div><i class="bi bi-people fw-bold me-3"></i></div>
+          <div>
+            <p class="num fw-bold">32</p>
+            <p>
+              <span class="fw-bold">Hard Workers</span> rerum asperiores dolor
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services width-85 pt-5 pb-5">
+      <h1 class="text-center services-section head">Services</h1>
+      <p class="text-center">
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit
+      </p>
+      <div
+        class="services-cards d-flex justify-content-evenly justify-content-md-between row"
+      >
+        <div class="col-md-6 col-9 col-xl-3 p-2">
+          <div
+            class="services-card position-relative d-flex mb-4 flex-column justify-content-evenly justify-content-md-between w-100 p-3"
+          >
+            <p class="bi bi-activity icon"></p>
+            <h5>Lorem Ipsum</h5>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores and quas molestias
+              excepturi
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-9 col-xl-3 p-2">
+          <div
+            class="services-card position-relative d-flex mb-4 flex-column justify-content-evenly justify-content-md-between w-100 p-3"
+          >
+            <p class="bi bi-app icon"></p>
+            <h5>sed ut perspici</h5>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-9 col-xl-3 p-2">
+          <div
+            class="services-card position-relative d-flex mb-4 flex-column justify-content-evenly justify-content-md-between w-100 p-3"
+          >
+            <p class="bi bi-calendar-week icon"></p>
+            <h5>Magni Dolores</h5>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-9 col-xl-3 p-2">
+          <div
+            class="services-card position-relative d-flex mb-4 flex-column justify-content-evenly justify-content-md-between w-100 p-3"
+          >
+            <p class="bi bi-broadcast icon"></p>
+            <h5>Nemo Enim</h5>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="call-to-action">
+      <div class="text-center width-85 pt-5 pb-5">
+        <h1 class="text-light">Call To Action</h1>
+        <p class="text-light">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </p>
+        <button class="header-btn">Call To Action</button>
+      </div>
+    </section>
+    <section class="text-center width-85 pt-5 pb-5">
+      <h1 class="more-services head">More Services</h1>
+      <p>
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit
+      </p>
+      <div class="d-flex flex-wrap justify-content-evenly">
+        <div class="p-2 col-md-10 col-lg-4">
+          <div class="more-services-card w-100 p-3">
+            <img
+              src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/more-service-1.jpg"
+              alt
+              class="w-100 mb-4"
+            />
+            <h5 class="fs-4 width-85">Ad cupiditate sed est odio</h5>
+            <p>
+              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
+              sit. Et veritatis id.
+            </p>
+          </div>
+        </div>
+        <div class="p-2 col-md-10 col-lg-4">
+          <div class="more-services-card w-100 p-3">
+            <img
+              src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/more-service-2.jpg"
+              alt
+              class="w-100 mb-4"
+            />
+            <h5 class="fs-4 width-85">Voluptatem voluptatum alias</h5>
+            <p>
+              Repudiandae amet nihil natus in distinctio suscipit id. Doloremque
+              ducimus ea sit non.
+            </p>
+          </div>
+        </div>
+        <div class="p-2 col-md-10 col-lg-4">
+          <div class="more-services-card w-100 p-3">
+            <img
+              src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/more-service-3.jpg"
+              alt
+              class="w-100 mb-4"
+            />
+            <h5 class="fs-4 width-85">Fugit cupiditate alias nobis.</h5>
+            <p>
+              Quam rem vitae est autem molestias explicabo debitis sint. Vero
+              aliquid quidem commodi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-center width-85 pt-5 pb-5">
+      <h1 class="Portfolio-section head">Portfolio</h1>
+      <p>
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit
+      </p>
+      <ul
+        class="nav justify-content-center mt-5 Roboto portfolio-nav"
+        id="myTab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#all-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="all-tab-pane"
+            aria-selected="true"
+          >
+            All
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#app-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="app-tab-pane"
+            aria-selected="false"
+          >
+            App
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#product-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="product-tab-pane"
+            aria-selected="false"
+          >
+            Product
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#branding-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="branding-tab-pane"
+            aria-selected="false"
+          >
+            Branding
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#books-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="books-tab-pane"
+            aria-selected="false"
+          >
+            Books
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="all-tab-pane"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+          tabindex="0"
+        >
+          <div
+            class="all-pic d-flex row flex-wrap justify-content-evenly justify-content-md-between"
+          >
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/app-1.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>App 1</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/product-1.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Product 1</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/branding-1.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Branding 1</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/books-1.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Books 1</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/app-2.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>App 2</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/product-2.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Product 2</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/branding-2.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Branding 2</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/books-2.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Books 2</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/app-3.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>App 3</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/product-3.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Product 3</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/branding-3.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Branding 3</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/books-3.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Books 3</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="app-tab-pane"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+          tabindex="0"
+        >
+          <div
+            class="all-pic d-flex row flex-wrap justify-content-evenly justify-content-md-between"
+          >
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/app-1.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>App 1</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/app-2.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>App 2</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/app-3.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>App 3</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="product-tab-pane"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+          tabindex="0"
+        >
+          <div
+            class="all-pic d-flex row flex-wrap justify-content-evenly justify-content-md-between"
+          >
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/product-1.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Product 1</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/product-2.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Product 2</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/product-3.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Product 3</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="branding-tab-pane"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+          tabindex="0"
+        >
+          <div
+            class="all-pic d-flex row flex-wrap justify-content-evenly justify-content-md-between"
+          >
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/branding-1.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Branding 1</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/branding-2.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Branding 2</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/branding-3.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Branding 3</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="books-tab-pane"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+          tabindex="0"
+        >
+          <div
+            class="all-pic d-flex row flex-wrap justify-content-evenly justify-content-md-between"
+          >
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/books-1.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Books 1</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/books-2.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Books 2</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+            <div
+              class="p-lg-3 col-lg-4 p-md-2 p-3 col-md-6 col-sm-10 Portfolio-img position-relative"
+            >
+              <div class="Portfolio-img-div w-100 h-100 overflow-hidden">
+                <img
+                  src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/portfolio/books-3.jpg"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+              <div class="portfolio-card-content">
+                <h5>Books 3</h5>
+                <i class="bi bi-zoom-in"></i>
+                <i class="bi bi-link-45deg"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team-section text-center width-85 pt-5 pb-5">
+      <h1 class="Team head">Team</h1>
+      <div class="row justify-content-evenly justify-content-md-between">
+        <div
+          class="p-md-2 p-3 col-lg-3 col-md-6 col-11 team-img position-relative"
+        >
+          <img
+            src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/team/team-1.jpg"
+            alt
+            class="w-100"
+          />
+          <div class="team-card-content">
+            <h5>Walter White</h5>
+            <p>Chief Executive Officer</p>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+        <div
+          class="p-md-2 p-3 col-lg-3 col-md-6 col-11 team-img position-relative"
+        >
+          <img
+            src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/team/team-2.jpg"
+            alt
+            class="w-100"
+          />
+          <div class="team-card-content">
+            <h5>Sarah Jhonson</h5>
+            <p>Product Manager</p>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+        <div
+          class="p-md-2 p-3 col-lg-3 col-md-6 col-11 team-img position-relative"
+        >
+          <img
+            src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/team/team-3.jpg"
+            alt
+            class="w-100"
+          />
+          <div class="team-card-content">
+            <h5>William Anderson</h5>
+            <p>CTO</p>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+        <div
+          class="p-md-2 p-3 col-lg-3 col-md-6 col-11 team-img position-relative"
+        >
+          <img
+            src="https://bootstrapmade.com/content/demo/Shuffle/assets/img/team/team-4.jpg"
+            alt
+            class="w-100"
+          />
+          <div class="team-card-content">
+            <h5>Amanda Jepson</h5>
+            <p>Accountant</p>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Questions-section pt-5 pb-5">
+      <div class="width-85 row justify-content-evenly">
+        <div class="col-lg-5 col-xl-3">
+          <h1 class="fw-normal">
+            Frequently Asked <span class="fw-bold">Questions</span>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+            aute irure dolor in reprehenderit
+          </p>
+        </div>
+        <div
+          class="accordion accordion-flush col-xl-8 col-lg-7 d-flex flex-column justify-content-between h-100"
+          id="accordionFlushExample"
+        >
+          <div class="accordion-item mb-4 shadow">
+            <h2 class="text-white text-start">
+              <button
+                class="accordion-button collapsed inter fw-semibold d-flex align-items-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                <span class="accordion-num">1</span>. Non consectetur a erat nam
+                at lectus urna duis?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse inter"
+            >
+              <div class="accordion-body">
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+                magna fringilla urna porttitor rhoncus dolor purus non.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-4 shadow">
+            <h2 class="text-white text-start">
+              <button
+                class="accordion-button collapsed inter fw-semibold d-flex align-items-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                <span class="accordion-num">2</span>. Feugiat scelerisque varius
+                morbi enim nunc faucibus a pellentesque?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse inter"
+            >
+              <div class="accordion-body">
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant
+                morbi. Id interdum velit laoreet id donec ultrices. Fringilla
+                phasellus faucibus scelerisque eleifend donec pretium. Est
+                pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                cursus turpis massa tincidunt dui.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-4 shadow">
+            <h2 class="text-white text-start">
+              <button
+                class="accordion-button collapsed inter fw-semibold d-flex align-items-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                <span class="accordion-num">3</span>. Dolor sit amet consectetur
+                adipiscing elit pellentesque?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse inter"
+            >
+              <div class="accordion-body">
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                pellentesque eu tincidunt. Lectus urna duis convallis convallis
+                tellus. Urna molestie at elementum eu facilisis sed odio morbi
+                quis
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-4 shadow">
+            <h2 class="text-white text-start">
+              <button
+                class="accordion-button collapsed inter fw-semibold d-flex align-items-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                <span class="accordion-num">4</span>. Ac odio tempor orci
+                dapibus. Aliquam eleifend mi in nulla?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse inter"
+            >
+              <div class="accordion-body">
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant
+                morbi. Id interdum velit laoreet id donec ultrices. Fringilla
+                phasellus faucibus scelerisque eleifend donec pretium. Est
+                pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                cursus turpis massa tincidunt dui.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2 shadow">
+            <h2 class="text-white text-start">
+              <button
+                class="accordion-button collapsed inter fw-semibold d-flex align-items-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                <span class="accordion-num">5</span>. Tempus quam pellentesque
+                nec nam aliquam sem et tortor consequat?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse inter"
+            >
+              <div class="accordion-body">
+                Molestie a iaculis at erat pellentesque adipiscing commodo.
+                Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                bibendum est. Purus gravida quis blandit turpis cursus in
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Contact-section text-center width-85 pt-5 pb-5">
+      <h1 class="head">Contact</h1>
+      <p>
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit
+      </p>
+      <div class="row">
+        <div class="row col-lg-6">
+          <div class="p-2 col-6">
+            <div class="contact-card text-start p-4">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Address</h4>
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+            </div>
+          </div>
+          <div class="p-2 col-6">
+            <div class="contact-card text-start p-4">
+              <i class="bi bi-telephone"></i>
+              <h4>Call Us</h4>
+              <p>+1 5589 55488 55</p>
+              <p>+1 6678 254445 41</p>
+            </div>
+          </div>
+          <div class="p-2 col-6">
+            <div class="contact-card text-start p-4">
+              <i class="bi bi-envelope"></i>
+              <h4>Email Us</h4>
+              <p>info@example.com</p>
+              <p>contact@example.com</p>
+            </div>
+          </div>
+          <div class="p-2 col-6">
+            <div class="contact-card text-start p-4">
+              <i class="bi bi-clock"></i>
+              <h4>Open Hours</h4>
+              <p>Monday - Friday</p>
+              <p>9:00AM - 05:00PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 col-lg-6">
+          <form
+            class="row contact-card text-start justify-content-center h-100 align-content-between pb-5 pt-4 p-4"
+          >
+            <div class="d-flex justify-content-between p-0">
+              <div class="pe-1 col-6">
+                <input type="text" class="w-100" placeholder="Your Name" />
+              </div>
+              <div class="ps-1 col-6">
+                <input type="text" class="w-100" placeholder="Your Email " />
+              </div>
+            </div>
+            <input type="text" class="col-12" placeholder="Subject" />
+            <textarea
+              name=""
+              id=""
+              class="col-12 mb-3 h-25"
+              placeholder="Message"
+            ></textarea>
+            <button
+              class="header-btn col-5 d-flex justify-content-center align-items-center"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="width-85 row pt-5 pb-5">
+        <div class="col-lg-5 col-sm-12 mb-5">
+          <h3>Shuffle</h3>
+          <p>
+            Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada
+            terra videa magna derita valies darta donna mare fermentum iaculis
+            eu non diam phasellus.
+          </p>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-linkedin"></i>
+        </div>
+        <div class="col-lg-2 col-6 mb-5">
+          <h6>Useful Links</h6>
+          <a href="#">Home</a>
+          <a href="#">About us</a>
+          <a href="#">Services</a>
+          <a href="#">Terms of service</a>
+          <a href="#">Privacy policy</a>
+        </div>
+        <div class="col-lg-2 col-6 mb-5">
+          <h6>Our Services</h6>
+          <a href="#">Web Design</a>
+          <a href="#">Web Development</a>
+          <a href="#">Product Management</a>
+          <a href="#">Marketing</a>
+          <a href="#">Graphic Design</a>
+        </div>
+        <div
+          class="col-lg-3 col-sm-10 d-flex flex-column align-items-center align-items-md-start"
+        >
+          <h6>Contact Us</h6>
+          <p>A108 Adam Street</p>
+          <p>New York, NY 535022</p>
+          <p>United States</p>
+          <br />
+          <p><span class="fw-bold">Phone:</span> +1 5589 55488 55</p>
+          <p><span class="fw-bold">Email:</span> info@example.com</p>
+        </div>
+        <div class="col-12 Copyright pb-4 pt-4 text-center">
+          <p class="m-0">
+            © Copyright <span class="fw-bold">Shuffle</span> All Rights Reserved
+          </p>
+          <p class="m-0">
+            Designed by <span class="BootstrapMade">BootstrapMade</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="boot/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

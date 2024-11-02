@@ -1,0 +1,119 @@
+@mixin cursor-background($link) {
+    color: $background-color;
+    height: 100vh;
+    background-image: url($link);
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: multiply;
+    position: relative;
+}
+
+@mixin primary-btn($background-color, $border) {
+    color: white;
+    background-color: $background-color;
+    padding-block: 0.4rem;
+    padding-inline: 2rem;
+    border: $border;
+    border-radius: 1rem;
+}
+
+@mixin before-and-after {
+    content: "";
+    display: inline-block;
+    background-color: $primary-color;
+    padding-inline: 1.5rem;
+    padding-block: 1px;
+    margin-bottom: 0.5rem;
+    margin-inline: auto;
+}
+
+.portfolio-card-content {
+    opacity: 0;
+    color: white;
+    height: 100%;
+
+    h5 {
+        background-color: #1bbca3;
+        top: 24px;
+        left: 30px;
+        font-size: 1rem;
+        padding-inline: 0.6rem;
+        position: absolute;
+    }
+
+    .bi-zoom-in {
+        top: 43%;
+        left: 40%;
+        position: absolute;
+        font-size: 1.6rem;
+    }
+
+    .bi-link-45deg {
+        top: 42%;
+        left: 55%;
+        position: absolute;
+        font-size: 1.9rem;
+    }
+
+    p {
+        font-size: 90%;
+        position: absolute;
+        bottom: 18px;
+        width: 93%;
+        text-align: center;
+        font-weight: bold;
+        color: #ffffffcc;
+    }
+}
+
+.team-card-content {
+    opacity: 0;
+    color: white;
+    // height: 100%;
+
+    h5 {
+        font-size: 100%;
+        position: absolute;
+        top: 34%;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+
+    }
+
+    p {
+        font-size: 90%;
+        position: absolute;
+        top: 41%;
+        width: 100%;
+    }
+
+    .bi-twitter {
+        font-size: 90%;
+        position: absolute;
+        top: 50%;
+        right: 60%;
+
+    }
+
+    .bi-facebook {
+        font-size: 90%;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+    }
+
+    .bi-instagram {
+        font-size: 90%;
+        position: absolute;
+        top: 50%;
+        right: 40%;
+    }
+
+    .bi-linkedin {
+        font-size: 90%;
+        position: absolute;
+        top: 50%;
+        right: 30%;
+    }
+}
