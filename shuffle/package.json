@@ -1,1 +1,10 @@
-{}
+{
+  "name": "shuffle-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sass main.scss main.css"
+  },
+  "dependencies": {
+    "sass": "^1.70.0"
+  }
+}
